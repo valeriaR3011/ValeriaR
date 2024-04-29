@@ -1,0 +1,410 @@
+html{
+    font-size: 70%;
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}
+
+
+.container{
+    max-width: 1110 px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+.logo{
+    width: 150px;
+    height: 150px;  
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform:scale(1.1, 1.1) ;
+
+}
+.logo > img{
+    max-width: 120%;
+    max-height: 100%;
+    margin-left: 40rem;
+    margin-top: 10rem;
+   
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15rem;
+
+}
+
+.nav> a{
+    color: #222;
+}
+
+.img-10{
+    text-align: center;
+    display: flex;
+
+}
+
+.img-10 figure{
+    position: relative;
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0, 0, 0.50);
+    cursor: pointer;
+   
+
+}
+
+.img-10 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.img-10 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(192, 58, 204, 0.7) ;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.img-10 figure:hover> .capa{
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.img-10 figure:hover> .capa h1{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.img-10 figure:hover> img{
+    transform: scale(1.5);
+}
+
+
+
+.img-11{
+    text-align: center;
+    display: flex;
+
+}
+
+.img-11 figure{
+    position: relative;
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0, 0, 0.50);
+    cursor: pointer;
+   
+
+}
+
+.img-11 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.img-11 figure .capa1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(58, 121, 204, 0.7) ;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.img-11 figure:hover> .capa1{
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.img-11 figure:hover> .capa1 h2{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.img-11 figure:hover> img{
+    transform: scale(1.5);
+}
+
+.img-12{
+    text-align: center;
+    display: flex;
+
+}
+
+.img-12 figure{
+    position: relative;
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0, 0, 0.50);
+    cursor: pointer;
+   
+
+}
+
+.img-12 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.img-12 figure .capa2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(58, 204, 180, 0.7) ;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.img-12 figure:hover> .capa2{
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.img-12 figure:hover> .capa2 h3{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.img-12 figure:hover> img{
+    transform: scale(1.5);
+}
+
+.img-13{
+    text-align: center;
+    display: flex;
+
+}
+
+.img-13 figure{
+    position: relative;
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0, 0, 0.50);
+    cursor: pointer;
+   
+
+}
+
+.img-13 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.img-13 figure .capa3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(204, 58, 58, 0.7) ;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.img-13 figure:hover> .capa3{
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.img-13 figure:hover> .capa3 h4{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.img-13 figure:hover> img{
+    transform: scale(1.5);
+}
+
+.img-14{
+    text-align: center;
+    display: flex;
+
+}
+
+.img-14 figure{
+    position: relative;
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0, 0, 0.50);
+    cursor: pointer;
+   
+
+}
+
+.img-14 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.img-14 figure .capa4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(35, 231, 94, 0.7) ;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.img-14 figure:hover> .capa4{
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.img-14 figure:hover> .capa4 h5{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.img-14 figure:hover> img{
+    transform: scale(1.5);
+}
+
+*{
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5px;
+}
+
+.body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    min-height: 100px;
+    background-color: #cf7208;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-item{
+    list-style: none;
+}
+
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+
+.menu-elem{
+    list-style: none;
+}
+
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.menu-icon:hover{
+    opacity: 1;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
